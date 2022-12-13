@@ -89,7 +89,7 @@ img {
 }
 
 section {
-  padding: 94px 0px;
+  padding: 0px 0px;
 }
 
 .container {
@@ -102,17 +102,13 @@ button {
   cursor: pointer;
 }
 
-/* body {
-  background-image: linear-gradient(to top left, blue, yellow);
-} */
-
 /* ---------- HEADER ---------- */
 
 .header {
   
   width: 100%;
   height: 100px;
-  margin: 0;
+  margin: 0 0 60px 0;
 
   font-family: Roboto, sans-serif;
   font-size: 90px;
@@ -137,13 +133,24 @@ button {
   margin-right: 30px;
 
   border: 20px solid yellow;
+  
   border-radius: 10px;
+
 }
 
 .photo > img {
-  /* display: block; */
+  
   height: 100%;
   width: 100%;
 
   object-fit: cover;
+
+  overflow: hidden;
+}
+
+.label {
+  text-align: center;
+
+  color: #e3e83d;
+  font-size: 30px;
 }
