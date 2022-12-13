@@ -1,0 +1,118 @@
+:root {
+  --background-color: #0e1dc1;
+  --header-logo-color: #000000;
+  --footer-logo-color: #ffffff;
+  --headlines-links-color: #212121;
+  --second-links-color: #2196f3;
+  --hero-button-hover: #188ce8;
+  --text-main-color: #757575;
+  --hero-background-color: #c4c4c4;
+  --just-white-color: #ffffff;
+  --team-background-color: #f5f4fa;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --header-frame-color: #ececec;
+  --example-frame-color: #eeeeee;
+  --hero-overlay-color: #2f303a66;
+  --team-media-color: #afb1b8;
+  --footer-background-color: #2f303a;
+  --footer-media-base: rgba(255, 255, 255, 0.1);
+  --portfolio-example-overlay: rgba(33, 150, 243, 0.9);
+  --business-background-color: rgba(47, 48, 58, 0.8);
+  --backdrop-background-color: rgba(0, 0, 0, 0.2);
+  --modal-bottom-color: rgba(0, 0, 0, 0.1);
+  --modal-input-color: rgba(33, 33, 33, 0.2);
+  --modal-comment-placeholder: rgba(117, 117, 117, 0.5);
+}
+/* ---------- body ---------- */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  padding-top: 20px;
+
+  color: var(--text-main-color);
+  background-color: var(--background-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.header-logo,
+.link,
+.number,
+.footer-logo,
+.post-address {
+  text-decoration: none;
+}
+
+.header,
+.peculiarities,
+.business,
+.team-list,
+.portfolio {
+  background-color: var(--just-white-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 94px 0px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ---------- HEADER ---------- */
+
+.header {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+
+  text-align: center;
+
+  color: coral;
+  background-color: #188ce8;
+}
